@@ -19,6 +19,20 @@ components:
         name: fake name
         role: user
 
+    Book:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        authorName:
+          type: string
+      example:
+        id: 5ebac534954b54139806c112
+        name: book1
+        authorName: author1
+
     Token:
       type: object
       properties:
